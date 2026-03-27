@@ -24,11 +24,11 @@ $cxv_current = basename($_SERVER['PHP_SELF']);
 
             <!-- Logo -->
             <div class="col-lg-6 text-center">
-                <a href="index.php" class="navbar-brand">
-                    <h1 class="m-0 display-4 text-primary">
-                        <span class="text-secondary">Harvest</span>Fi
-                    </h1>
-                </a>
+                <a href="" class="navbar-brand ms-4 ms-lg-0">
+    <h1 class="m-0 display-4 text-primary">
+        <img src="img/logo.png" alt="HarvestFi Logo" style="height: 60px; width: auto;">
+    </h1>
+</a>
             </div>
 
             <!-- Social -->
