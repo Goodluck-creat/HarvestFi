@@ -1,0 +1,5 @@
+[27-Mar-2026 08:52:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'loans.buyer_id' in 'on clause' in /home/oqmntiar/activate.ejsub.com/Harvestfi/Admin/admin_loans.php:23
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/Admin/admin_loans.php(23): mysqli->query('\r\nSELECT loans....')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/Admin/admin_loans.php on line 23

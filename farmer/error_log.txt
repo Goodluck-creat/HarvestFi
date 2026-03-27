@@ -1,0 +1,30 @@
+[26-Mar-2026 23:11:50 UTC] PHP Warning:  Undefined variable $farmer_id in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 49
+[26-Mar-2026 23:11:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id DESC' at line 1 in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php:49
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php(49): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 49
+[26-Mar-2026 23:11:53 UTC] PHP Warning:  Undefined variable $farmer_id in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 49
+[26-Mar-2026 23:11:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id DESC' at line 1 in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php:49
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php(49): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 49
+[26-Mar-2026 23:11:55 UTC] PHP Warning:  Undefined variable $farmer_id in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 49
+[26-Mar-2026 23:11:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id DESC' at line 1 in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php:49
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php(49): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 49
+[26-Mar-2026 23:12:04 UTC] PHP Warning:  Undefined variable $farmer_id in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 49
+[26-Mar-2026 23:12:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id DESC' at line 1 in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php:49
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php(49): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 49
+[26-Mar-2026 23:12:10 UTC] PHP Warning:  Undefined variable $farmer_id in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 49
+[26-Mar-2026 23:12:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id DESC' at line 1 in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php:49
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php(49): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 49

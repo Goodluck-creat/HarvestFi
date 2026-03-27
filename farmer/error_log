@@ -1,0 +1,57 @@
+[25-Mar-2026 09:14:57 UTC] PHP Warning:  Undefined array key "amount" in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/apply_loan.php on line 4
+[25-Mar-2026 09:14:57 UTC] PHP Warning:  Undefined variable $totalLoan in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/apply_loan.php on line 119
+[25-Mar-2026 09:14:57 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/apply_loan.php on line 119
+[25-Mar-2026 09:15:09 UTC] PHP Warning:  Undefined variable $totalLoan in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/apply_loan.php on line 119
+[25-Mar-2026 09:15:09 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/apply_loan.php on line 119
+[25-Mar-2026 09:24:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'oqmntiar_Harvestfi.users' doesn't exist in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/admin_loans.php:22
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/admin_loans.php(22): mysqli->query('SELECT loans.*,...')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/admin_loans.php on line 22
+[25-Mar-2026 09:25:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'oqmntiar_Harvestfi.users' doesn't exist in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/admin_loans.php:24
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/admin_loans.php(24): mysqli->query('SELECT loans.*,...')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/admin_loans.php on line 24
+[25-Mar-2026 09:26:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'users.name' in 'field list' in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/admin_loans.php:24
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/admin_loans.php(24): mysqli->query('SELECT loans.*,...')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/admin_loans.php on line 24
+[25-Mar-2026 09:27:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'oqmntiar_Harvestfi.users' doesn't exist in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/admin_loans.php:24
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/admin_loans.php(24): mysqli->query('SELECT loans.*,...')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/admin_loans.php on line 24
+[25-Mar-2026 10:03:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'produce_name' in 'field list' in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php:21
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php(21): mysqli->prepare('INSERT INTO pro...')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 21
+[25-Mar-2026 10:07:37 UTC] PHP Warning:  Undefined array key "name" in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 16
+[25-Mar-2026 10:07:37 UTC] PHP Warning:  Undefined array key "description" in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 17
+[25-Mar-2026 10:07:37 UTC] PHP Warning:  Undefined array key "images" in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 26
+[25-Mar-2026 10:07:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 26
+[25-Mar-2026 10:07:37 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 26
+[25-Mar-2026 10:07:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'name' cannot be null in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php:42
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php(42): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 42
+[26-Mar-2026 23:08:36 UTC] PHP Warning:  Undefined variable $farmer_id in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 46
+[26-Mar-2026 23:08:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id DESC' at line 1 in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php:46
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php(46): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 46
+[26-Mar-2026 23:09:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'farmer_id' cannot be null in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php:40
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php(40): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 40
+[26-Mar-2026 23:10:08 UTC] PHP Warning:  Undefined variable $farmer_id in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 46
+[26-Mar-2026 23:10:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id DESC' at line 1 in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php:46
+Stack trace:
+#0 /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php(46): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/oqmntiar/activate.ejsub.com/Harvestfi/farmer/my_produce.php on line 46
